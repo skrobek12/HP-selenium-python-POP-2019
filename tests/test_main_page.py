@@ -4,7 +4,7 @@ Test methods for MainPage.
 
 from pages.main_page import MainPage
 from tests.main_page_test_template import TestTemplate
-
+from time import sleep
 
 class TestMainPage(TestTemplate):
 
@@ -41,11 +41,12 @@ class TestMainPage(TestTemplate):
         """
         m = MainPage(self.driver)
         m.click_button_open_search()
+        sleep(3)
         m.click_engine_placeholder()
         m.clear_engine_placeholder()
         m.send_text_to_engine_placeholder()
         m.click_submit_search_button()
-        assert m.check_title() == "Search Results for Test | Search HP"
+        assert m.is_link_testingHP_enabled() == True
 
     def test_desktops_menu(self):
         """
@@ -75,7 +76,8 @@ class TestMainPage(TestTemplate):
         m = MainPage(self.driver)
         m.find_business_solutions_menu()
         m.mouse_hover_business_solutions_menu()
-        assert m.is_business_solution_menu_list_enabled() == True
+        sleep(3)
+        assert m.is_business_solutions_menu_list_enabled() == True
 
     def test_support_menu(self):
         """

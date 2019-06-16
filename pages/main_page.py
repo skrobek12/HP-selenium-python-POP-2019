@@ -23,7 +23,7 @@ class MainPage(BasePage):
     _search_engine_placeholder = "//*[@id='searchBox']"
     _submit_search_button = "//*[@id='searchHP']/div/div[1]/button"
     _search_value = "Test"
-
+    _link_testingHP = "//*[@id='results']/div/div[3]/h3/a"
     # Text to send
     TEXT_SEND_SEARCH_ENGINE = "Test"
 
@@ -66,8 +66,11 @@ class MainPage(BasePage):
         return self._driver.find_element_by_xpath(self._search_engine_placeholder).send_keys(self.TEXT_SEND_SEARCH_ENGINE)
 
     def click_submit_search_button(self):
-        wait = WebDriverWait(self._driver, 2)
-        return wait.until(EC.element_to_be_clickable((By.XPATH, self._submit_search_button))).click()
+        wait = WebDriverWait(self._driver,2)
+        return wait.until(EC.element_to_be_clickable((By.XPATH,self._submit_search_button))).click()
+
+    def is_link_testingHP_enabled(self):
+        return self._driver.find_element_by_xpath(self._link_testingHP).is_enabled()
 
     def check_title(self):
         return self._driver.title

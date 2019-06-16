@@ -33,23 +33,25 @@ class TestDesktopsPage(TestTemplate):
         c = DesktopsPage(self.driver)
         assert c.is_logo_enabled() == True
 
-    def test_switch_to_youtube(self):
+    def test_switch_to_facebook(self):
         """
-        Test will be checking switch to youtube site.
+        Test will be checking switch to facebook site.
         :return: True
         """
         c = DesktopsPage(self.driver)
         c.scroll_down()
-        c.click_youtube_button()
-        sleep(10)
-        assert c.is_youtube_button_enabled() == True
+        c.click_facebook_button()
+        sleep(2)
+        assert c.is_facebook_button_enabled() == True
 
-    def test_switch_to_linkedin(self):
+    def test_switch_to_twitter(self):
         """
-        Test will be checking switch to linkedin site.
+        Test will be checking switch to twitter site.
         :return: True
         """
         c = DesktopsPage(self.driver)
         c.scroll_down()
-        c.click_linkedin_button()
-        assert c.is_linkedin_button_enabled() == True
+        sleep(3)
+        c.click_twitter_button()
+        sleep(3)
+        assert c.is_twitter_button_enabled() == True

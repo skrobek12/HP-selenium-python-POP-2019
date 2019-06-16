@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dafbd0e6-143d-4348-a5fc-f3410a0b6587" name="Default Changelist" comment="" />
+    <list default="true" id="dafbd0e6-143d-4348-a5fc-f3410a0b6587" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/desktops_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/desktops_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_desktops_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_desktops_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,35 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/desktops_page_test_template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding>
-                <element signature="e#125#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/main_page_test_template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#126#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_desktops_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="576">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="16" />
               <folding>
                 <element signature="e#40#84#0" expanded="true" />
               </folding>
@@ -46,37 +31,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/desktops_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
               <folding>
                 <element signature="e#82#118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/main_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
-              <folding>
-                <element signature="e#78#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_main_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="47" column="58" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="71" />
-              <folding>
-                <element signature="e#36#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +52,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -100,18 +64,20 @@
         <option value="$PROJECT_DIR$/pages/__init__.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/pages/base_page.py" />
-        <option value="$PROJECT_DIR$/pages/main_page.py" />
-        <option value="$PROJECT_DIR$/tests/test_main_page.py" />
         <option value="$PROJECT_DIR$/tests/desktops_test_template.py" />
         <option value="$PROJECT_DIR$/tests/desktops_page_test_template.py" />
+        <option value="$PROJECT_DIR$/pages/main_page.py" />
+        <option value="$PROJECT_DIR$/tests/test_main_page.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/tests/test_desktops_page.py" />
         <option value="$PROJECT_DIR$/pages/desktops_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-269" />
-    <option name="y" value="33" />
+    <option name="x" value="457" />
+    <option name="y" value="29" />
     <option name="width" value="1050" />
     <option name="height" value="920" />
   </component>
@@ -137,6 +103,15 @@
               <item name="HewlettPackard-selenium-python-POP-2019" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HewlettPackard-selenium-python-POP-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HewlettPackard-selenium-python-POP-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HewlettPackard-selenium-python-POP-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,6 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -159,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin">
+  <component name="RunManager" selected="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +157,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_desktops_page.TestDesktopsPage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="base_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HewlettPackard-selenium-python-POP-2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Michał\PycharmProjects\HewlettPackard-selenium-python-POP-2019\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/base_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_logo_available" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,11 +188,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_desktops_page.TestDesktopsPage&quot;" />
+      <option name="_new_target" value="&quot;test_desktops_page.TestDesktopsPage.test_logo_available&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_page_is_scrollable" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +202,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_desktops_page.TestDesktopsPage.test_page_is_scrollable&quot;" />
+      <option name="_new_target" value="&quot;test_desktops_page.TestDesktopsPage.test_switch_to_facebook&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_twitter" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,21 +216,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_desktops_page.TestDesktopsPage.test_switch_to_linkedin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HewlettPackard-selenium-python-POP-2019" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_desktops_page.TestDesktopsPage.test_switch_to_youtube&quot;" />
+      <option name="_new_target" value="&quot;test_desktops_page.TestDesktopsPage.test_switch_to_twitter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -252,19 +235,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.base_page" />
+      <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" />
+      <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_twitter" />
+      <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_logo_available" />
       <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_title" />
-      <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_page_is_scrollable" />
-      <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" />
-      <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin" />
-      <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin" />
-        <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage" />
-        <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" />
-        <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_page_is_scrollable" />
+        <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" />
+        <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_twitter" />
         <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_title" />
+        <item itemvalue="Python tests.Unittests for test_desktops_page.TestDesktopsPage.test_logo_available" />
+        <item itemvalue="Python.base_page" />
       </list>
     </recent_temporary>
   </component>
@@ -282,35 +265,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_linkedin - 2019.06.12 at 20h 24m 27s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 17h 46m 54s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_youtube - 2019.06.12 at 20h 25m 39s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 17h 50m 45s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_youtube - 2019.06.12 at 20h 27m 57s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_twitter - 2019.06.16 at 17h 53m 25s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_twitter" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_youtube - 2019.06.12 at 20h 35m 05s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 17h 53m 47s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_youtube - 2019.06.12 at 20h 37m 32s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 17h 58m 30s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_youtube - 2019.06.12 at 21h 14m 20s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_youtube" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_twitter - 2019.06.16 at 17h 59m 01s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_twitter" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_linkedin - 2019.06.12 at 21h 19m 53s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 18h 01m 22s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_linkedin - 2019.06.12 at 21h 20m 18s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 18h 05m 28s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage - 2019.06.12 at 21h 21m 49s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 18h 07m 42s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_linkedin - 2019.06.12 at 21h 39m 00s.xml">
-      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_linkedin" configurationId="tests" />
+    <history-entry file="Unittests_for_test_desktops_page_TestDesktopsPage_test_switch_to_facebook - 2019.06.16 at 18h 11m 01s.xml">
+      <configuration name="Unittests for test_desktops_page.TestDesktopsPage.test_switch_to_facebook" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -325,13 +308,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
@@ -350,12 +333,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -377,56 +360,30 @@
     <entry file="file://$USER_HOME$/Desktop/Pliki zrobione w pracy 12.06.19/test_main_page.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/wsb-tob-page-object-python-2019/pages/career_page.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/desktops_page_test_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/main_page_test_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#126#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/desktops_page_test_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#125#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_desktops_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#40#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="-566">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="e#78#114#0" expanded="true" />
           </folding>
@@ -435,20 +392,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="71" />
+        <state relative-caret-position="367">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#36#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv-install.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-317" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/desktops_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="150">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
           <folding>
             <element signature="e#82#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_desktops_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="e#40#84#0" expanded="true" />
           </folding>
         </state>
       </provider>

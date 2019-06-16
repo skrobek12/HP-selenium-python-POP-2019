@@ -1,0 +1,4 @@
+tests/.pytest_cache
+.idea/*
+.idea/workspace.xml
+venv/*
