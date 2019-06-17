@@ -16,10 +16,13 @@ class DesktopsPage(BasePage):
     _logo = "//*[@id='header']/div[2]/div[1]/div[1]/a"
     # Locators test_switch_to_facebook
     _facebook_button = "//*[@id='footer']/div[2]/div[1]/div[5]/ul/li[2]/ul/li[1]"
-    _facebook_logo = "//*[@id='blueBarDOMInspector']/div/div/div/div[1]"
+    _facebook_logo = "//*[@id='blueBarDOMInspector']/div/div/div/div[1]/a/i"
     # Locators test_switch_to_twitter
     _twitter_button = "//*[@id='footer']/div[2]/div[1]/div[5]/ul/li[2]/ul/li[3]"
     _twitter_logo = "//*[@id='global-nav-home']/a"
+    # Locators test_switch_to_youtube
+    _youtube_button = "//*[@id='footer']/div[2]/div[1]/div[5]/ul/li[2]/ul/li[4]/a"
+    _youtube_logo = "//*[@id='logo-icon-container']"
 
 
     def check_title(self):
@@ -42,6 +45,12 @@ class DesktopsPage(BasePage):
 
     def is_twitter_button_enabled(self):
         return self._driver.find_element_by_xpath(self._twitter_logo).is_enabled()
+
+    def click_youtube_button(self):
+        return self._driver.find_element_by_xpath(self._youtube_button).click()
+
+    def is_youtube_button_enabled(self):
+        return self._driver.find_element_by_xpath(self._youtube_logo).is_enabled()
 
 
 
