@@ -46,6 +46,7 @@ class TestMainPage(TestTemplate):
         m.clear_engine_placeholder()
         m.send_text_to_engine_placeholder()
         m.click_submit_search_button()
+        sleep(3)
         assert m.is_link_testingHP_enabled() == True
 
     def test_desktops_menu(self):
@@ -88,5 +89,26 @@ class TestMainPage(TestTemplate):
         m.find_support_menu()
         m.mouse_hover_support_menu()
         assert m.is_support_menu_list_enabled() == True
+
+    def test_filter_offered_products(self):
+        """
+        Test will be checking filter offered products
+        :return: True
+        """
+        c = MainPage(self.driver)
+        sleep(5)
+        c.find_desktop_menu()
+        sleep(5)
+        c.mouse_hover_desktop_menu()
+        sleep(2)
+        c.click_towers_button()
+        sleep(3)
+        c.click_sale()
+        sleep(3)
+        c.click_ready_to_ship()
+        sleep(3)
+        c.click_home()
+        sleep(3)
+        assert c.is_hp_slimeline_button_enabled() == True
 
 

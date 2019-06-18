@@ -6,7 +6,7 @@ from pages.base_page import BasePage
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-
+from selenium.webdriver import ActionChains
 
 class DesktopsPage(BasePage):
 
@@ -51,6 +51,10 @@ class DesktopsPage(BasePage):
 
     def is_youtube_button_enabled(self):
         return self._driver.find_element_by_xpath(self._youtube_logo).is_enabled()
+
+
+
+
 
 
 

@@ -66,3 +66,4 @@ class TestDesktopsPage(TestTemplate):
         c.click_youtube_button()
         sleep(5)
         assert c.is_youtube_button_enabled() == True
+

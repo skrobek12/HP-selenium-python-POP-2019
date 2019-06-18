@@ -43,6 +43,14 @@ class MainPage(BasePage):
     _support_menu = "//*[@id='header']/div[2]/div[1]/div[2]/ul/li[8]"
     _support_menu_list = "//*[@id='header']/div[2]/div[1]/div[3]/ul[5]"
 
+    # Locators test_filter_offered_products
+    _desktops = "//*[@id='header']/div[2]/div[1]/div[2]/ul/li[2]"
+    _towers_button = "//*[@id='header']/div[2]/div[1]/div[2]/ul/li[2]/div[2]"
+    _sale = "//*[@id='facetItem_xonsale']/label/span[1]"
+    _ready_to_ship = "//*[@id='facetItem_ads_f30001_ntk_cs_0']/label/span[1]"
+    _home = "//*[@id='facetItem_ads_f38501_ntk_cs_0']/label/span[1]"
+    _hp_slimline = "//*[@id='p_3074457345618854362']"
+
 
     def is_logo_enabled(self):
         return self._driver.find_element_by_xpath(self._logo).is_enabled()
@@ -114,4 +122,26 @@ class MainPage(BasePage):
 
     def is_support_menu_list_enabled(self):
         return self._driver.find_element_by_xpath(self._support_menu_list).is_enabled()
+
+    def find_desktop_menu(self):
+        return self._driver.find_element_by_xpath(self._desktops)
+
+    def mouse_hover_desktop_menu(self):
+        actions = ActionChains(self._driver)
+        return actions.move_to_element(self._driver.find_element_by_xpath(self._desktops)).perform()
+
+    def click_towers_button(self):
+        return self._driver.find_element_by_xpath(self._towers_button).click()
+
+    def click_sale(self):
+        return self._driver.find_element_by_xpath(self._sale).click()
+
+    def click_ready_to_ship(self):
+        return self._driver.find_element_by_xpath(self._ready_to_ship).click()
+
+    def click_home(self):
+        return self._driver.find_element_by_xpath(self._home).click()
+
+    def is_hp_slimeline_button_enabled(self):
+        return self._driver.find_element_by_xpath(self._hp_slimline).is_enabled()
 
