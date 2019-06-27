@@ -11,7 +11,7 @@ from selenium.webdriver import ActionChains
 class MainPage(BasePage):
 
     # Locators test_logo_enabled
-    _logo = "/html//div[@id='header']//a[@name='1414644']"
+    _logo = "//*[@id='header']/div[2]/div[1]/div[1]/a"
 
     # Locators test_page_is_scrollable
     _original_footer = "//*[@id='footer']/div[2]/div[2]/ul/li[1]"
@@ -49,11 +49,8 @@ class MainPage(BasePage):
     _sale = "//*[@id='facetItem_xonsale']/label/span[1]"
     _ready_to_ship = "//*[@id='facetItem_ads_f30001_ntk_cs_0']/label/span[1]"
     _home = "//*[@id='facetItem_ads_f38501_ntk_cs_0']/label/span[1]"
-    _hp_slimline = "//*[@id='p_3074457345618854362']"
+    _hp_envy = "//*[@id='p_3074457345618856337']"
 
-
-    def is_logo_enabled(self):
-        return self._driver.find_element_by_xpath(self._logo).is_enabled()
 
     def is_footer_enabled(self):
         return self._driver.find_element_by_xpath(self._original_footer).is_enabled()
@@ -142,6 +139,6 @@ class MainPage(BasePage):
     def click_home(self):
         return self._driver.find_element_by_xpath(self._home).click()
 
-    def is_hp_slimeline_button_enabled(self):
-        return self._driver.find_element_by_xpath(self._hp_slimline).is_enabled()
+    def is_hp_envy_button_enabled(self):
+        return self._driver.find_element_by_xpath(self._hp_envy).is_enabled()
 

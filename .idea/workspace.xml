@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dafbd0e6-143d-4348-a5fc-f3410a0b6587" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/desktops_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/desktops_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_desktops_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_desktops_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/store_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/store_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_store_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_store_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/store_page_test_template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_desktops_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#40#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,24 +39,24 @@
         <option value="$PROJECT_DIR$/tests/main_page_test_template.py" />
         <option value="$PROJECT_DIR$/pages/__init__.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
-        <option value="$PROJECT_DIR$/pages/base_page.py" />
         <option value="$PROJECT_DIR$/tests/desktops_test_template.py" />
         <option value="$PROJECT_DIR$/tests/desktops_page_test_template.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/tests/store_page_test_template.py" />
-        <option value="$PROJECT_DIR$/pages/desktops_page.py" />
-        <option value="$PROJECT_DIR$/pages/main_page.py" />
         <option value="$PROJECT_DIR$/tests/test_desktops_page.py" />
+        <option value="$PROJECT_DIR$/pages/base_page.py" />
+        <option value="$PROJECT_DIR$/pages/main_page.py" />
         <option value="$PROJECT_DIR$/tests/test_main_page.py" />
+        <option value="$PROJECT_DIR$/pages/desktops_page.py" />
         <option value="$PROJECT_DIR$/pages/store_page.py" />
         <option value="$PROJECT_DIR$/tests/test_store_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="457" />
-    <option name="y" value="29" />
+    <option name="x" value="456" />
+    <option name="y" value="56" />
     <option name="width" value="1050" />
     <option name="height" value="920" />
   </component>
@@ -82,7 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,12 +75,18 @@
             <path>
               <item name="HewlettPackard-selenium-python-POP-2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="HewlettPackard-selenium-python-POP-2019" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HewlettPackard-selenium-python-POP-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HewlettPackard-selenium-python-POP-2019" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_store_page.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_main_page.TestMainPage.test_filter_offered_products">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store_page.TestStorePage.test_change_language_website" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_main_page.TestMainPage.test_business_solutions_menu" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +137,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store_page.TestStorePage.test_change_language_website&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.TestMainPage.test_business_solutions_menu&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store_page.TestStorePage.test_sign_in" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_main_page.TestMainPage.test_filter_offered_products" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +151,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store_page.TestStorePage.test_sign_in&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.TestMainPage.test_filter_offered_products&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_main_page.TestMainPage.test_search_engine" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +165,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store_page.TestStorePage.test_sort_bestsellers_laptops&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.TestMainPage.test_search_engine&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_desktops_page.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_main_page.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HewlettPackard-selenium-python-POP-2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,7 +179,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_desktops_page.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_main_page.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -210,19 +198,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_desktops_page.py" />
-      <item itemvalue="Python tests.Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" />
-      <item itemvalue="Python tests.Unittests for test_store_page.TestStorePage.test_change_language_website" />
-      <item itemvalue="Python tests.Unittests for test_store_page.TestStorePage.test_sign_in" />
       <item itemvalue="Python tests.Unittests in test_store_page.py" />
+      <item itemvalue="Python tests.Unittests in test_main_page.py" />
+      <item itemvalue="Python tests.Unittests for test_main_page.TestMainPage.test_filter_offered_products" />
+      <item itemvalue="Python tests.Unittests for test_main_page.TestMainPage.test_search_engine" />
+      <item itemvalue="Python tests.Unittests for test_main_page.TestMainPage.test_business_solutions_menu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_main_page.TestMainPage.test_filter_offered_products" />
+        <item itemvalue="Python tests.Unittests for test_main_page.TestMainPage.test_business_solutions_menu" />
+        <item itemvalue="Python tests.Unittests for test_main_page.TestMainPage.test_search_engine" />
+        <item itemvalue="Python tests.Unittests in test_main_page.py" />
         <item itemvalue="Python tests.Unittests in test_store_page.py" />
-        <item itemvalue="Python tests.Unittests for test_store_page.TestStorePage.test_sign_in" />
-        <item itemvalue="Python tests.Unittests for test_store_page.TestStorePage.test_change_language_website" />
-        <item itemvalue="Python tests.Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" />
-        <item itemvalue="Python tests.Unittests in test_desktops_page.py" />
       </list>
     </recent_temporary>
   </component>
@@ -240,35 +228,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_desktops_page_py - 2019.06.18 at 19h 38m 34s.xml">
+    <history-entry file="Unittests_in_test_desktops_page_py - 2019.06.27 at 20h 44m 35s.xml">
       <configuration name="Unittests in test_desktops_page.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_sort_bestsellers_laptops - 2019.06.18 at 20h 01m 49s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_sort_bestsellers_laptops - 2019.06.18 at 20h 03m 07s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_sort_bestsellers_laptops - 2019.06.18 at 20h 05m 25s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_sort_bestsellers_laptops - 2019.06.18 at 20h 09m 07s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_sort_bestsellers_laptops - 2019.06.18 at 20h 16m 37s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_sort_bestsellers_laptops - 2019.06.18 at 20h 18m 24s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_sort_bestsellers_laptops" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_change_language_website - 2019.06.18 at 20h 38m 50s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_change_language_website" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_store_page_TestStorePage_test_sign_in - 2019.06.18 at 21h 45m 43s.xml">
-      <configuration name="Unittests for test_store_page.TestStorePage.test_sign_in" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_store_page_py - 2019.06.18 at 21h 52m 32s.xml">
+    <history-entry file="Unittests_in_test_store_page_py - 2019.06.27 at 20h 46m 14s.xml">
       <configuration name="Unittests in test_store_page.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_main_page_py - 2019.06.27 at 20h 49m 24s.xml">
+      <configuration name="Unittests in test_main_page.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_main_page_TestMainPage_test_filter_offered_products - 2019.06.27 at 20h 50m 37s.xml">
+      <configuration name="Unittests for test_main_page.TestMainPage.test_filter_offered_products" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_main_page_TestMainPage_test_filter_offered_products - 2019.06.27 at 20h 55m 18s.xml">
+      <configuration name="Unittests for test_main_page.TestMainPage.test_filter_offered_products" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_main_page_TestMainPage_test_search_engine - 2019.06.27 at 20h 57m 41s.xml">
+      <configuration name="Unittests for test_main_page.TestMainPage.test_search_engine" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_main_page_TestMainPage_test_search_engine - 2019.06.27 at 20h 58m 32s.xml">
+      <configuration name="Unittests for test_main_page.TestMainPage.test_search_engine" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_main_page_TestMainPage_test_search_engine - 2019.06.27 at 20h 59m 03s.xml">
+      <configuration name="Unittests for test_main_page.TestMainPage.test_search_engine" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_main_page_TestMainPage_test_business_solutions_menu - 2019.06.27 at 20h 59m 48s.xml">
+      <configuration name="Unittests for test_main_page.TestMainPage.test_business_solutions_menu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_main_page_TestMainPage_test_filter_offered_products - 2019.06.27 at 21h 01m 11s.xml">
+      <configuration name="Unittests for test_main_page.TestMainPage.test_filter_offered_products" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -294,7 +282,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006337" side_tool="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -321,6 +309,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1164061140/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -334,13 +325,6 @@
     <entry file="file://$USER_HOME$/Desktop/Skrobek/Ostateczne wersje WSB!!!!/wsb-tob-page-object-python-2019/tests/test_main_page.py" />
     <entry file="file://$USER_HOME$/Desktop/Pliki zrobione w pracy 12.06.19/test_main_page.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv-install.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/wsb-tob-page-object-python-2019/tests/test_career_page.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -356,17 +340,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/__init__.py">
+    <entry file="file://$USER_HOME$/Desktop/store_page.py" />
+    <entry file="file://$USER_HOME$/Desktop/store_page_test_template.py" />
+    <entry file="file://$USER_HOME$/Desktop/test_store_page.py" />
+    <entry file="file://$USER_HOME$/Desktop/test_desktops_page.py" />
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/tests/store_page_test_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#127#142#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/pages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/desktops_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#78#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/store_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1012">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/desktops_page_test_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#125#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/main_page_test_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#126#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_desktops_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-808">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <element signature="e#40#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="100" column="16" lean-forward="true" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+          <folding>
+            <element signature="e#36#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_store_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#37#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -377,128 +455,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
+    <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/store_page.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="12" lean-forward="true" selection-end-line="38" selection-end-column="80" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+    <entry file="file://$PROJECT_DIR$/venv-install.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/store_page_test_template.py">
+    <entry file="file://$PROJECT_DIR$/debug.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="22" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test_store_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test_desktops_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="76" column="24" selection-start-line="69" selection-start-column="4" selection-end-line="88" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/desktops_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <element signature="e#82#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/store_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
-          <folding>
-            <element signature="e#78#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_main_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
-          <folding>
-            <element signature="e#36#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/desktops_page_test_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/main_page_test_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#126#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_store_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/store_page_test_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_desktops_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#40#84#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

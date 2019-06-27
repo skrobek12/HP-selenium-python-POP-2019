@@ -3,10 +3,7 @@ All methods and locators which will use to build tests for StorePage.
 """
 
 from pages.base_page import BasePage
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver import ActionChains
+
 
 
 class StorePage(BasePage):
@@ -34,8 +31,6 @@ class StorePage(BasePage):
     TEXT_SEND_PASSWORD = "Skrobek12"
 
 
-    def is_logo_enabled(self):
-        return self._driver.find_element_by_xpath(self._logo).is_enabled()
 
     def is_footer_enabled(self):
         return self._driver.find_element_by_xpath(self._site_map).is_enabled()

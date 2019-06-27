@@ -41,12 +41,11 @@ class TestMainPage(TestTemplate):
         """
         m = MainPage(self.driver)
         m.click_button_open_search()
-        sleep(3)
+        sleep(1)
         m.click_engine_placeholder()
         m.clear_engine_placeholder()
         m.send_text_to_engine_placeholder()
         m.click_submit_search_button()
-        sleep(3)
         assert m.is_link_testingHP_enabled() == True
 
     def test_desktops_menu(self):
@@ -77,7 +76,6 @@ class TestMainPage(TestTemplate):
         m = MainPage(self.driver)
         m.find_business_solutions_menu()
         m.mouse_hover_business_solutions_menu()
-        sleep(3)
         assert m.is_business_solutions_menu_list_enabled() == True
 
     def test_support_menu(self):
@@ -96,11 +94,11 @@ class TestMainPage(TestTemplate):
         :return: True
         """
         c = MainPage(self.driver)
-        sleep(5)
+        sleep(3)
         c.find_desktop_menu()
-        sleep(5)
+        sleep(3)
         c.mouse_hover_desktop_menu()
-        sleep(2)
+        sleep(3)
         c.click_towers_button()
         sleep(3)
         c.click_sale()
@@ -109,6 +107,6 @@ class TestMainPage(TestTemplate):
         sleep(3)
         c.click_home()
         sleep(3)
-        assert c.is_hp_slimeline_button_enabled() == True
+        assert c.is_hp_envy_button_enabled() == True
 
 

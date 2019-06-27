@@ -4,7 +4,7 @@ Test methods for StorePage.
 
 from pages.store_page import StorePage
 from tests.store_page_test_template import TestTemplate
-from time import sleep
+
 
 class TestStorePage(TestTemplate):
 
