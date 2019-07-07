@@ -4,8 +4,6 @@ All methods and locators which will use to build tests for StorePage.
 
 from pages.base_page import BasePage
 
-
-
 class StorePage(BasePage):
 
     # Locators test_logo_enabled

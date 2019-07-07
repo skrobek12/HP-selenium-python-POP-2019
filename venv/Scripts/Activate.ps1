@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\Michał\PycharmProjects\HewlettPackard-selenium-python-POP-2019\venv"
+$env:VIRTUAL_ENV="C:\Users\Michał\Desktop\HP-selenium-python-POP-2019\venv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

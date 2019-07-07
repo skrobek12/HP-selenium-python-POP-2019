@@ -1,4 +1,4 @@
-#!C:\Users\Micha³\PycharmProjects\HewlettPackard-selenium-python-POP-2019\venv\Scripts\python.exe -x
+#!C:\Users\Micha³\Desktop\HP-selenium-python-POP-2019\venv\Scripts\python.exe -x
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip'
 __requires__ = 'pip==19.0.3'
 import re
