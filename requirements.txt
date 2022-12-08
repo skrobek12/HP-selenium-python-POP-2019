@@ -2,7 +2,7 @@ pip==19.1.1
 selenium==3.141.0
 setuptools==28.8.0
 urllib3==1.24.3
-certifi==2019.3.9
+certifi==2022.12.7
 chardet==3.0.4
 colorama==0.4.1
 configparser==3.7.4
